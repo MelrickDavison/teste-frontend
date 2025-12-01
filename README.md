@@ -66,19 +66,6 @@ A entrega será feita pelo GitHub.
 
 ---
 
-## 🚀 Diferencial (não obrigatório)  
-Será considerado **um plus** se você também hospedar o projeto em qualquer serviço, como:
-
-- Vercel  
-- Netlify  
-- GitHub Pages  
-- Surge  
-- Render  
-
-E incluir o link no README.
-
----
-
 ## 🧩 O que será avaliado
 - Fidelidade ao projeto de UX  
 - Organização do código  
@@ -86,7 +73,6 @@ E incluir o link no README.
 - Estrutura e reaproveitamento de CSS  
 - Uso claro e funcional de JS/jQuery  
 - Funcionalidade da interface  
-- Capacidade de comunicação técnica no vídeo  
 
 ---
 
