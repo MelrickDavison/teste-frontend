@@ -83,5 +83,5 @@ E incluir o link no README.
 ---
 
 ## 💬 Suporte  
-Se houver qualquer dúvida ou dificuldade, entre em contato:  
+Se houver qualquer dúvida ou dificuldade (acesso a Doity, Figma, vídeos ou arquivo de links), entre em contato:  
 📩 lucyan@doity.com.br
