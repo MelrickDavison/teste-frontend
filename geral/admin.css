@@ -1929,6 +1929,7 @@ tr.striped td {
     background-color: #F4F6F8;
     padding: 10px;
     border: 1px solid #E5E7EB !important;
+    margin-bottom: 30px;
 }
 
 .table-questions thead th {
