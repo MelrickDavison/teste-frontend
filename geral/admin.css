@@ -1447,7 +1447,10 @@ table .ds-acoes a.ds-excluir-lote:hover {
 td.acoes {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 8px;
+  padding-right: 40px !important;
+  height: 100%;
 }
 
 .btn-icon {
@@ -1914,12 +1917,72 @@ tr.striped td {
     background-color: #F8F8F8;
 }
 
+.table-questions{
+    width: 100%;
+    box-shadow: 0 0 0 1px #E5E7EB;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px; 
+    overflow: hidden; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #F4F6F8;
+    padding: 10px;
+    border: 1px solid #E5E7EB !important;
+}
+
+.table-questions thead th {
+    vertical-align: middle !important;
+    height: 50px;
+    color: #4A4A4A;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 16px 24px;
+    text-align: left;
+    border-bottom: 1px solid #E5E7EB !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.table-questions thead th:last-child {
+    text-align: right;
+    padding-right: 55px !important;
+}
+
+
+.table-questions tbody td {
+    padding: 16px 24px;
+    color: #4A4A4A; 
+    font-size: 12px;
+    vertical-align: middle;
+    height: 50px;
+    border-bottom: 1px solid #E5E7EB !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.table-questions tbody tr:last-child td {
+    border-bottom: none;
+}
+
 .table-header td {
     background-color: #EEE !important;
 }
 
 .table-header {
-    border-bottom: 1px solid #AAA !important;
+    font-size: 15px;
+}
+
+.container-title-question{
+    gap: 2px;
+    display: flex;
+}
+
+.container-title-question div:last-child {
+    font-weight: 700;
+    color: #777777;
 }
 
 .controller-row td {
@@ -3300,7 +3363,6 @@ display: inline-block
 /* AREA DE SUBMISSOES */
 
 .painel-info-artigos {
-    border: 1px solid #EBEBEB;
     background-color: #F6F6F6;
     border-radius: 10px;
     padding: 24px 32px;
