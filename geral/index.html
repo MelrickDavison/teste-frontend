@@ -862,9 +862,6 @@
         <img src="title-hide.gif" alt="">    </div>
 
     <div class="content forms">
-      	
-      	<div class="mensagem">
-	    </div> 
         
         <div class="painel-info-artigos">
             <h2>Pesquisa de Qualidade do Evento</h2>
@@ -879,7 +876,7 @@
                     <li class="break"></li>
 
                       <div class="painel-info-item">
-                        <span class="aria-label">Enviar pesquisa para</span>
+                        <span class="aria-label">Enviar pesquisa para:</span>
                         <span class="value">Todos confirmados</span>
                     </div>
 
@@ -1007,13 +1004,40 @@
                     </tr>
                 </tbody>
         </table>
-        <button class="btn" href="https://doity.com.br/admin/pesquisas_perguntas/add/1402">Adicionar pergunta</button>
-        </div>
-        <div style="width: 100%; display: flex; justify-content: end;">
-         <button class="btn btn-send-search" href="#" data-toggle="tooltip" title="Pesquisa já foi enviada. Não é possível enviar a pesquisa novamente" class="link_desabilitado">Enviar pesquisa</button>
+    </div>
+    <div class="modal-body">
+
+        <div class="input text">
+            <label for="campoPergunta">
+                Pergunta<span style="color: #FF2B34;">*</span>
+            </label>
+            <input type="text" id="campoPergunta" name="pergunta" value="" autocomplete="off">
         </div>
 
-       
+        <div class="input checkbox">
+            <div class="checkbox-container">
+                <input type="checkbox" id="campoObrigatorio" name="obrigatorio" checked>
+                <label for="campoObrigatorio" style="margin-bottom: 0; font-weight: 400;">Obrigatório</label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" class="btn">
+            Cancelar
+        </button>
+
+        <button type="button" class="btn btn-red">
+            Adicionar
+        </button>
+    </div>
+    <button class="btn unvisible" href="https://doity.com.br/admin/pesquisas_perguntas/add/1402">Adicionar pergunta</button>
+        
+</div>
+
+<div style="width: 100%; display: flex; justify-content: end;">
+        <button class="btn btn-red" href="#" data-toggle="tooltip" title="Pesquisa já foi enviada. Não é possível enviar a pesquisa novamente" class="link_desabilitado">Enviar pesquisa</button>
 </div>
 
         	
