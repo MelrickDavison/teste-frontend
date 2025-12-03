@@ -860,13 +860,13 @@
     <div class="content forms">
       	
       	<div class="mensagem">
-	                </div> 
+	    </div> 
         <div class="actions">
             <ul>
                 <li><a href="https://doity.com.br/admin/pesquisas_perguntas/add/1402">Adicionar pergunta</a></li>
-            	            		            		<li><a href="#" data-toggle="tooltip" title="Pesquisa já foi enviada. Não é possível enviar a pesquisa novamente" class="link_desabilitado">Enviar pesquisa de satisfação</a></li>
-            	            	            		<li><a href="https://doity.com.br/admin/pesquisas_resultados/index/1402">Resultados da pesquisa de satisfação</a></li>
-            	
+            	<li><a href="#" data-toggle="tooltip" title="Pesquisa já foi enviada. Não é possível enviar a pesquisa novamente" class="link_desabilitado">Enviar pesquisa de satisfação</a></li>
+            	<li><a href="https://doity.com.br/admin/pesquisas_resultados/index/1402">Resultados da pesquisa de satisfação</a></li>
+
             </ul>
         </div>
         
@@ -904,37 +904,110 @@
             </div>
             </div>
                 
-                	<h1>Perguntas</h1>
 	        <table class="table-resp">
-            <thead>
-                <tr class="table-header">
-                    <th>Nome</th>
-                    <th>Ações</th>
-                </tr>
-            </thead>
-            <tbody>
-                                                                        <tr>
+                <thead>
+                    <tr class="table-header">
+                        <th>Perguntas</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
                         <td data-th="Nome">Como você avaliaria sua experiência geral no evento?</td>
-                        <td data-th="Ações" class="acoes"><a href="https://doity.com.br/admin/pesquisas_perguntas/edit/11638" class="green">Editar</a> &nbsp;<form action="https://doity.com.br/admin/pesquisas_perguntas/delete/11638" name="post_692ddd2707ec5683564929" id="post_692ddd2707ec5683564929" style="display:none;" method="post"><input type="hidden" name="_method" value="POST"><input type="hidden" name="data[_Token][key]" value="d0a4d7808b25367c63670521594f8e66817be9c43decf001d7e9bc5762307bf6ce980aef69628051e22199ee2c3e64a5adda23f162fb08da27233fee6ad138bd" id="Token1852135797"><div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="900ff7a50a7e7b09d1bc55cc314c075b50f52150%3A" id="TokenFields7240585"><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1137798274"></div></form><a href="#" class="red">Excluir</a></td>
+                        <td data-th="Ações" class="acoes">
+                        <a href="https://doity.com.br/admin/pesquisas_perguntas/edit/11638" class="btn-icon" title="Editar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                            </svg>
+                        </a>
+                        
+                        <form action="https://doity.com.br/admin/pesquisas_perguntas/delete/11638" name="post_692ddd2707ec5683564929" id="post_692ddd2707ec5683564929" style="display:none;" method="post">
+                            <input type="hidden" name="_method" value="POST">
+                            <input type="hidden" name="data[_Token][key]" value="d0a4d7808b25367c63670521594f8e66817be9c43decf001d7e9bc5762307bf6ce980aef69628051e22199ee2c3e64a5adda23f162fb08da27233fee6ad138bd" id="Token1852135797">
+                            <div style="display:none;">
+                            <input type="hidden" name="data[_Token][fields]" value="900ff7a50a7e7b09d1bc55cc314c075b50f52150%3A" id="TokenFields7240585">
+                            <input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1137798274">
+                            </div>
+                        </form>
+
+                        <a href="#" class="btn-icon delete" title="Excluir" onclick="document.getElementById('post_692ddd2707ec5683564929').submit(); return false;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="3 6 5 6 21 6"></polyline>
+                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                            </svg>
+                        </a>
+                        </td>
                     </tr>
-                                                        <tr style="background-color: rgb(248, 248, 248);">
+
+                    <tr style="background-color: rgb(248, 248, 248);">
                         <td data-th="Nome">O conteúdo apresentado foi relevante para você?</td>
-                        <td data-th="Ações" class="acoes"><a href="https://doity.com.br/admin/pesquisas_perguntas/edit/11639" class="green">Editar</a> &nbsp;<form action="https://doity.com.br/admin/pesquisas_perguntas/delete/11639" name="post_692ddd27080e6959484772" id="post_692ddd27080e6959484772" style="display:none;" method="post"><input type="hidden" name="_method" value="POST"><input type="hidden" name="data[_Token][key]" value="d0a4d7808b25367c63670521594f8e66817be9c43decf001d7e9bc5762307bf6ce980aef69628051e22199ee2c3e64a5adda23f162fb08da27233fee6ad138bd" id="Token2018854625"><div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="d26674c0616aee8878cd154a740bd58e73ae8fd5%3A" id="TokenFields1076305948"><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked2015711291"></div></form><a href="#" class="red">Excluir</a></td>
+                        <td data-th="Ações" class="acoes">
+                        <a href="https://doity.com.br/admin/pesquisas_perguntas/edit/11639" class="btn-icon" title="Editar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                        </a>
+                        <form action="https://doity.com.br/admin/pesquisas_perguntas/delete/11639" name="post_692ddd27080e6959484772" id="post_692ddd27080e6959484772" style="display:none;" method="post">
+                            <input type="hidden" name="_method" value="POST">
+                            <input type="hidden" name="data[_Token][key]" value="d0a4d7808b25367c63670521594f8e66817be9c43decf001d7e9bc5762307bf6ce980aef69628051e22199ee2c3e64a5adda23f162fb08da27233fee6ad138bd" id="Token2018854625">
+                            <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="d26674c0616aee8878cd154a740bd58e73ae8fd5%3A" id="TokenFields1076305948"><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked2015711291"></div>
+                        </form>
+                        <a href="#" class="btn-icon delete" title="Excluir" onclick="document.getElementById('post_692ddd27080e6959484772').submit(); return false;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </a>
+                        </td>
                     </tr>
-                                                        <tr>
+
+                    <tr>
                         <td data-th="Nome">A qualidade dos palestrantes foi satisfatória? <span class="obrigatorio">*</span></td>
-                        <td data-th="Ações" class="acoes"><a href="https://doity.com.br/admin/pesquisas_perguntas/edit/11640" class="green">Editar</a> &nbsp;<form action="https://doity.com.br/admin/pesquisas_perguntas/delete/11640" name="post_692ddd2708275959402913" id="post_692ddd2708275959402913" style="display:none;" method="post"><input type="hidden" name="_method" value="POST"><input type="hidden" name="data[_Token][key]" value="d0a4d7808b25367c63670521594f8e66817be9c43decf001d7e9bc5762307bf6ce980aef69628051e22199ee2c3e64a5adda23f162fb08da27233fee6ad138bd" id="Token2115250840"><div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="abd7742d7ace77b7cbb034e1c5408e54c72956b1%3A" id="TokenFields975048490"><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1454321251"></div></form><a href="#" class="red">Excluir</a></td>
+                        <td data-th="Ações" class="acoes">
+                        <a href="https://doity.com.br/admin/pesquisas_perguntas/edit/11640" class="btn-icon" title="Editar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                        </a>
+                        <form action="https://doity.com.br/admin/pesquisas_perguntas/delete/11640" name="post_692ddd2708275959402913" id="post_692ddd2708275959402913" style="display:none;" method="post">
+                            <input type="hidden" name="_method" value="POST">
+                            <input type="hidden" name="data[_Token][key]" value="d0a4d7808b25367c63670521594f8e66817be9c43decf001d7e9bc5762307bf6ce980aef69628051e22199ee2c3e64a5adda23f162fb08da27233fee6ad138bd" id="Token2115250840">
+                            <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="abd7742d7ace77b7cbb034e1c5408e54c72956b1%3A" id="TokenFields975048490"><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1454321251"></div>
+                        </form>
+                        <a href="#" class="btn-icon delete" title="Excluir" onclick="document.getElementById('post_692ddd2708275959402913').submit(); return false;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </a>
+                        </td>
                     </tr>
-                                                        <tr style="background-color: rgb(248, 248, 248);">
+
+                    <tr style="background-color: rgb(248, 248, 248);">
                         <td data-th="Nome">Como você avalia a organização do evento?</td>
-                        <td data-th="Ações" class="acoes"><a href="https://doity.com.br/admin/pesquisas_perguntas/edit/11641" class="green">Editar</a> &nbsp;<form action="https://doity.com.br/admin/pesquisas_perguntas/delete/11641" name="post_692ddd27083f5786625006" id="post_692ddd27083f5786625006" style="display:none;" method="post"><input type="hidden" name="_method" value="POST"><input type="hidden" name="data[_Token][key]" value="d0a4d7808b25367c63670521594f8e66817be9c43decf001d7e9bc5762307bf6ce980aef69628051e22199ee2c3e64a5adda23f162fb08da27233fee6ad138bd" id="Token970684964"><div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="17614a9a00b10e1b602ddecce7657cb5f7e0afab%3A" id="TokenFields1698820600"><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked803104074"></div></form><a href="#" class="red">Excluir</a></td>
+                        <td data-th="Ações" class="acoes">
+                        <a href="https://doity.com.br/admin/pesquisas_perguntas/edit/11641" class="btn-icon" title="Editar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                        </a>
+                        <form action="https://doity.com.br/admin/pesquisas_perguntas/delete/11641" name="post_692ddd27083f5786625006" id="post_692ddd27083f5786625006" style="display:none;" method="post">
+                            <input type="hidden" name="_method" value="POST">
+                            <input type="hidden" name="data[_Token][key]" value="d0a4d7808b25367c63670521594f8e66817be9c43decf001d7e9bc5762307bf6ce980aef69628051e22199ee2c3e64a5adda23f162fb08da27233fee6ad138bd" id="Token970684964">
+                            <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="17614a9a00b10e1b602ddecce7657cb5f7e0afab%3A" id="TokenFields1698820600"><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked803104074"></div>
+                        </form>
+                        <a href="#" class="btn-icon delete" title="Excluir" onclick="document.getElementById('post_692ddd27083f5786625006').submit(); return false;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </a>
+                        </td>
                     </tr>
-                                                        <tr>
+
+                    <tr>
                         <td data-th="Nome">Pergunta exemplo</td>
-                        <td data-th="Ações" class="acoes"><a href="https://doity.com.br/admin/pesquisas_perguntas/edit/11650" class="green">Editar</a> &nbsp;<form action="https://doity.com.br/admin/pesquisas_perguntas/delete/11650" name="post_692ddd2708560114869397" id="post_692ddd2708560114869397" style="display:none;" method="post"><input type="hidden" name="_method" value="POST"><input type="hidden" name="data[_Token][key]" value="d0a4d7808b25367c63670521594f8e66817be9c43decf001d7e9bc5762307bf6ce980aef69628051e22199ee2c3e64a5adda23f162fb08da27233fee6ad138bd" id="Token628605233"><div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="947be805aefd63bd4050adfd07e49e6b338c294f%3A" id="TokenFields853050961"><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1176650523"></div></form><a href="#" class="red">Excluir</a></td>
+                        <td data-th="Ações" class="acoes">
+                        <a href="https://doity.com.br/admin/pesquisas_perguntas/edit/11650" class="btn-icon" title="Editar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                        </a>
+                        <form action="https://doity.com.br/admin/pesquisas_perguntas/delete/11650" name="post_692ddd2708560114869397" id="post_692ddd2708560114869397" style="display:none;" method="post">
+                            <input type="hidden" name="_method" value="POST">
+                            <input type="hidden" name="data[_Token][key]" value="d0a4d7808b25367c63670521594f8e66817be9c43decf001d7e9bc5762307bf6ce980aef69628051e22199ee2c3e64a5adda23f162fb08da27233fee6ad138bd" id="Token628605233">
+                            <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="947be805aefd63bd4050adfd07e49e6b338c294f%3A" id="TokenFields853050961"><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1176650523"></div>
+                        </form>
+                        <a href="#" class="btn-icon delete" title="Excluir" onclick="document.getElementById('post_692ddd2708560114869397').submit(); return false;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </a>
+                        </td>
                     </tr>
-                                
-            </tbody>
+                </tbody>
         </table>
         </div>    
        

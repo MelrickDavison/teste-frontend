@@ -1444,66 +1444,34 @@ table .ds-acoes a.ds-excluir-lote:hover {
     color: #ea404f;
 }
 
-table .acoes a {
-    padding-top: 4px !important;
-    padding: 3px 5px;
-    color: #1C1C1C !important;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EEEEEE));
-    background-image: -o-linear-gradient(top, #FFFFFF, #EEEEEE);
-    background-image: linear-gradient(to bottom, #FFFFFF, #EEEEEE);
-    background: -moz-linear-gradient(center top , #FFFFFF, #EEEEEE) repeat scroll 0 0 transparent;
-    background-image:-webkit-linear-gradient(top, #FFFFFF, #EEEEEE);
-    /* For Internet Explorer 5.5 - 7 */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#EEEEEE);
-    /* For Internet Explorer 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#EEEEEE)";
-    border: 1px solid #D3D3D3;
-    border-radius: 3px 3px 3px 3px;
-    text-decoration: none !important;
-    font-size: 11px !important;
-    margin: 0 1px;
+td.acoes {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-table .acoes a.red:hover, .ativo .green, .pago .green{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#E5526F), to(#D60A33));
-    background-image: -o-linear-gradient(top, #E5526F, #D60A33);
-    background-image: linear-gradient(to bottom, #E5526F, #D60A33);
-    background: -moz-linear-gradient(center top , #E5526F, #D60A33) repeat scroll 0 0 transparent;
-    background-image:-webkit-linear-gradient(top, #E5526F, #D60A33);
-    /* For Internet Explorer 5.5 - 7 */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5526F, endColorstr=#D60A33);
-    /* For Internet Explorer 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5526F, endColorstr=#D60A33)";
-    border: 1px solid #6B0707;
-    color: #FFF !important;
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  color: #6B7280;
+  background-color: #fff;
+  transition: all 0.2s ease;
+  text-decoration: none;
 }
 
-table .acoes a.green:hover, .ativo .red, .pago .red{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#40CEA6), to(#119B74));
-    background-image: -o-linear-gradient(top, #40CEA6, #119B74);
-    background-image: linear-gradient(to bottom, #40CEA6, #119B74);
-    background: -moz-linear-gradient(center top , #40CEA6, #119B74) repeat scroll 0 0 transparent;
-    background-image:-webkit-linear-gradient(top, #40CEA6, #119B74);
-    /* For Internet Explorer 5.5 - 7 */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#40CEA6, endColorstr=#119B74);
-    /* For Internet Explorer 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#40CEA6, endColorstr=#119B74)";
-    border: 1px solid #063F0A;
-    color: #FFF !important;
+.btn-icon:hover {
+  background-color: #F3F4F6;
+  border-color: #D1D5DB;
+  color: #1F2937; /* Escurece o ícone */
 }
 
-table .acoes a.blue:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#5CA2F2), to(#1D5493));
-    background-image: -o-linear-gradient(top, #5CA2F2, #1D5493);
-    background-image: linear-gradient(to bottom, #5CA2F2, #1D5493);
-    background: -moz-linear-gradient(center top , #5CA2F2, #1D5493) repeat scroll 0 0 transparent;
-    background-image:-webkit-linear-gradient(top, #5CA2F2, #1D5493);
-    /* For Internet Explorer 5.5 - 7 */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#5CA2F2, endColorstr=#1D5493);
-    /* For Internet Explorer 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#5CA2F2, endColorstr=#1D5493)";
-    border: 1px solid #181470;
-    color: #FFF !important;
+.btn-icon.delete:hover {
+  background-color: #FEF2F2;
+  border-color: #FECACA;
+  color: #EF4444;
 }
 
 .acao-move-up, .acao-move-down {
