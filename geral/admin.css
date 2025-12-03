@@ -1454,8 +1454,8 @@ td.acoes {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   color: #6B7280;
   background-color: #fff;
   transition: all 0.2s ease;
