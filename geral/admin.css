@@ -2398,7 +2398,7 @@ tr.striped td {
 }
 
 .form-evento .row-admin {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .form-evento .row-admin .mensagem {
@@ -2528,6 +2528,15 @@ tr.striped td {
     padding-top: 8px;
     width: auto;
     word-wrap: break-word;
+}
+
+.break {
+    background-image: url("menu-break.gif");
+    background-repeat: no-repeat;
+    height: 29px;
+    margin: 1px 0 0;
+    overflow: hidden;
+    width: 2px;
 }
 
 /* credenciamento */
@@ -3323,10 +3332,10 @@ display: inline-block
 /* AREA DE SUBMISSOES */
 
 .painel-info-artigos {
-    border: 1px solid #EEE;
-    background-color: #FFF;
-    border-radius: 3px;
-    padding: 15px 20px;
+    border: 1px solid #EBEBEB;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    padding: 24px 32px;
     margin: 20px 0;
     overflow: hidden;
     font-size: 16px;
@@ -3336,6 +3345,46 @@ display: inline-block
 .painel-info-artigos a  {
     font-size: 12px;
 }
+
+
+.painel-info-artigos h2  {
+    font-size: 18px;
+    font-weight: 700;
+    color: #18181B;
+    margin-bottom: 20px;
+}
+
+.painel-info-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.painel-info-group{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.painel-info-item{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.painel-info-item span{
+    font-size: 12px;
+    color: #777777;
+    font-weight: 500;
+}
+
+.painel-info-item .value {
+      font-size: 12px;
+      color: #18181B;
+      font-weight: 700;
+    }
 
 .artigos-view .content-edit {
     display: block;
