@@ -3407,6 +3407,23 @@ display: inline-block
     font-weight: 600;
 }
 
+.actions {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    background-color: #F9FAFB;
+    border: 1px solid #CDD1D9;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #414651;
+    cursor: pointer;
+}
+
 .artigos-view .content-edit {
     display: block;
 }
