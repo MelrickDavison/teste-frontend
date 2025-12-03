@@ -3455,6 +3455,11 @@ display: inline-block
     cursor: pointer;
 }
 
+.btn-send-search {
+    background-color: #FF2B34;
+    color: #FFFFFF;
+}
+
 .artigos-view .content-edit {
     display: block;
 }
