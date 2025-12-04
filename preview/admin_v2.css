@@ -421,7 +421,7 @@ label.crop-label input {
     padding: 9px 35px;
     font-size: 14px;
     background-color: #ff2b34;
-    border-radius: 30px;
+    border-radius: 8px;
     color: #fff !important;
     text-decoration: none !important;
     text-transform: capitalize;

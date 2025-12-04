@@ -120,11 +120,12 @@ table th{
 }
 
 
-
 .formulario-dados span{
-    font-weight: bold;
-    margin-bottom: 1.563em;
+    font-weight: bold
+}
 
+.pergunta-descricao-title{
+    font-size: 16px !important;
 }
 
 .comentario-avaliacao span{
@@ -388,8 +389,21 @@ header {
     margin: 0 auto;
     background-color: #fff;
     padding: 35px 40px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
+
+.container-avaliacao-formulario {
+    max-width: 60em;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 35px 40px;
+    border-radius: 15px;
+}
+
+.texarea{
+    font-size: 16px;
+}
+
 
 .dados-centralizados h1 {
   font-size: 20px;

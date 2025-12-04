@@ -156,7 +156,7 @@
 	<link rel="stylesheet" type="text/css" href="messages.css">
 
 <div class="dados-avaliacao">
-    <div class="container-avaliacao-apresentacao">
+    <div class="container-avaliacao-apresentacao"> 
         <div class="dados-avaliar">
                 <div class="dados-centralizados">
                     <h1>Evento Teste Frontend</h1>
@@ -169,20 +169,15 @@
                             <span>Disponível até 31/12/2025</span>
                         </div>
                     </div>
-                
-
-
+        </div>      
+      </div>      
             <!-- Formulário -->
-
-            <h1 style="margin-top:50px;" id="texto-form">Pesquisa de Satisfação</h1>
-
-
-
-                <div class="formulario-dados">
+            <div class="container-avaliacao-formulario">       
+              <div class="formulario-dados">
 
                     
                         <div class="row">
-                        <span id="pergunta-descricao">1 - Como você avaliaria sua experiência geral no evento?</span> 
+                        <span class="pergunta-descricao-title" id="pergunta-descricao">1 - Como você avaliaria sua experiência geral no evento?</span> 
 
                                                     <div class="star-rating">
                             <span class="rating">
@@ -209,7 +204,7 @@
                         
                     
                         <div class="row">
-                        <span id="pergunta-descricao">2 - O conteúdo apresentado foi relevante para você?</span> 
+                        <span class="pergunta-descricao-title" id="pergunta-descricao">2 - O conteúdo apresentado foi relevante para você?</span> 
 
                                                     <div class="star-rating">
                             <span class="rating">
@@ -236,7 +231,7 @@
                         
                     
                         <div class="row">
-                        <span id="pergunta-descricao">3 - A qualidade dos palestrantes foi satisfatória?*</span> 
+                        <span class="pergunta-descricao-title" id="pergunta-descricao">3 - A qualidade dos palestrantes foi satisfatória?*</span> 
 
                                                     <div class="star-rating">
                             <span class="rating">
@@ -263,7 +258,7 @@
                         
                     
                         <div class="row">
-                        <span id="pergunta-descricao">4 - Como você avalia a organização do evento?</span> 
+                        <span class="pergunta-descricao-title" id="pergunta-descricao">4 - Como você avalia a organização do evento?</span> 
 
                                                     <div class="star-rating">
                             <span class="rating">
@@ -290,7 +285,7 @@
                         
                     
                         <div class="row">
-                        <span id="pergunta-descricao">5 - Pergunta exemplo</span> 
+                        <span class="pergunta-descricao-title" id="pergunta-descricao">5 - Pergunta exemplo</span> 
 
                                                     <div class="star-rating">
                             <span class="rating">
@@ -317,15 +312,17 @@
                         
                                     </div><!-- .formulario-dados -->
 
-
-
+            </div>
+            <div class="container-avaliacao-formulario">                               
                 <div class="row">
-                    <div class="texarea"><label for="PesquisaAvaliacaoComentario">Comentário (obrigatório)</label><textarea name="data[PesquisaAvaliacao][comentario]" rows="3" class="form-control" required="required" cols="30" id="PesquisaAvaliacaoComentario"></textarea></div>                    <br>
-                    <button class="__button-avaliar" type="submit">Enviar</button>                    <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="9147b88897edd3b6542ca4589e5555f9a3c0f8da%3A" id="TokenFields1616892081"><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked826685311"></div>                </div>
-
-
+                    <div class="texarea"><label for="PesquisaAvaliacaoComentario">Deixe o seu comentário</label><textarea name="data[PesquisaAvaliacao][comentario]" rows="3" class="form-control" required="required" cols="30" id="PesquisaAvaliacaoComentario"></textarea></div>           
+                    <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="9147b88897edd3b6542ca4589e5555f9a3c0f8da%3A" id="TokenFields1616892081"><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked826685311"></div>                </div>
+            </div>      
+            <div style="padding: 20px 0px; display: flex; justify-content: flex-end; width: 100%; width: 100%; max-width: 60em; margin: 0 auto;">
+              <button class="__button-avaliar" type="submit">Enviar</button>
+            </div>
         </div><!-- .dados-avaliar -->
-    </div><!-- .container-avaliacao-apresentacao -->
+     <!-- .container-avaliacao-apresentacao -->
 </div><!-- .dados-avaliacao -->
 
 
